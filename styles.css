@@ -1,0 +1,189 @@
+html {
+    color: #99ff33;
+    font-size: 16px;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  a {
+    color: #99ff33;
+    text-shadow: 2px 2px 4px #e6ffb3;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    opacity: 0.79;
+  }
+  
+  header h3 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    text-shadow: 2px 2px 15px #809fff;
+  }
+  
+  #welcome {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR97wPlijftxpH9d_h8GL144R6_bseRCxRiH2J0qmp2_cWteMfBY-OwUut1eUZZkuuzydc&usqp=CAU");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+  }
+  
+  #welcome h1 {
+    font-size: 6rem;
+    color: #cc7a00;
+    text-shadow: 2px 2px 1px #ffc6b3;
+    text-align: center;
+  }
+  
+  #welcome h4 {
+    color: #ffb3ff;
+    text-shadow: 1px 1px 1px #194d00;
+    font-size: 1.75rem;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    #welcome h1 {
+      font-size: 3rem;
+    }
+    #welcome h4 {
+      font-size: 1.25rem;
+      margin-left: 0.8rem;
+    }
+  }
+  
+  #act h1 {
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 3px 3px 5px #cc3300;
+    text-transform: uppercase;
+  }
+  
+  .acts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    color: #ffffcc;
+    text-shadow: 0 0 5px black;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .act1 {
+    background-image: url("https://s.yimg.com/uu/api/res/1.2/BRh_QPBz3l0VNwAeDLHU4A--~B/aD00NjM7dz02OTI7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/in_the_know_500/9bf227bc7cf01b06806acb2d29100dd3");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 50px;
+  }
+  
+  .act2 {
+    background-image: url("https://medias.spotern.com/spots/w640/178/178569-1548680284.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 50px;
+  }
+  
+  .act3 {
+    background-image: url("https://deanblundell.com/wp-content/uploads/2018/12/Screen-Shot-2018-04-04-at-12.36.52-PM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 15px;
+  }
+  
+  .act4 {
+    background-image: url("https://wachanga-res.cloudinary.com/c_thumb,q_85,w_654/v1588762175/21254578451247454.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 130px 56px;
+  }
+  
+  .act5 {
+    background-image: url("https://lhsstatesman.com/wp-content/uploads/2019/12/keyandpeele_garvey.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 130px 60px;
+  }
+  
+    .act6 {
+    background-image: url("https://cdn.pixabay.com/photo/2022/05/02/08/37/boy-7169209_960_720.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 77px;
+  }
+  
+  .act7 {
+    background-image: url("https://whyy.org/wp-content/uploads/2019/06/20190630_WHYY_Water-Fight-Philly_D4_074-e1561937797788.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 150px 103px;
+    text-transform: uppercase;
+  }
+  
+  @media only screen and (max-width: 950px) {
+    .acts {
+      font-size: 0.7rem;
+    }
+    .act1 {
+      padding: 100px 10px;
+    }
+    .act2 {
+      padding: 100px 10px;
+    }
+    .act3 {
+      font-size: 1rem;
+      padding: 95px 0;
+    }
+    .act4 {
+      padding: 100px 15px;
+    }
+    .act5 {
+      padding: 100px 10px;
+    }
+    .act6 {
+      padding: 100px 20px;
+    }
+    .act7 {
+      padding: 110px 90px;
+    }
+  }
+  
+  #join a {
+    padding: 2px;
+    background-image: url("https://ctl.s6img.com/society6/img/oDbViweUPFt-7HdeczmvJeaB__c/w_1500/leggings/swatch/~artwork,fw_7500,fh_9000,iw_7500,ih_9000/s6-0058/a/24364420_16287032/~~/fire-and-flames-pattern-leggings.jpg");
+    background-position: bottom;
+    border-radius: 5px;
+    color: black;
+    text-shadow: 0 0 6px azure;
+    font-size: 1.5rem;
+  }
+  
+  #join {
+    padding-bottom: 1rem;
+  }
+  
+  #join a:hover {
+    opacity: 1;
+    font-size: 2.5rem;
+    transition: font-size .862s ease-in;
+  }
